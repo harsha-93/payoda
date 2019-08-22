@@ -11,8 +11,8 @@ MongoClient.connect(url, function(err, db) {
     console.log("Database Conncected");
     var dbo = db.db("master");
     // save user details
-    dbo.dropCollection(userCollection, (err, res) => {});
-    dbo.dropCollection(userCollection, (err, res) => {});
+    // dbo.dropCollection(userCollection, (err, res) => {});
+    // dbo.dropCollection(userCollection, (err, res) => {});
 
     dbo.createCollection(userCollection, function(err, res) {
         if (err) throw err;

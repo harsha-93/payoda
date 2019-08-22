@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node main.js",
-    "fetch-users": "node fetchusers.js"
+    "fetch-users": "node fetchusers.js",
+    "remove-collections": "node removeCollections.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/harsha-93/payoda#readme",
   "dependencies": {
+    "body-parser": "1.18.2",
     "express": "^4.17.1",
     "lodash": "^4.17.15",
     "mongodb": "^3.3.0"
