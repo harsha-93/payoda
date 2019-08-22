@@ -1,0 +1,26 @@
+{
+  "name": "payoda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js",
+    "fetch-users": "node fetchusers.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harsha-93/payoda.git"
+  },
+  "author": "harsha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harsha-93/payoda/issues"
+  },
+  "homepage": "https://github.com/harsha-93/payoda#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mongodb": "^3.3.0"
+  }
+}
