@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node main.js",
     "fetch-users": "node fetchusers.js",
-    "remove-collections": "node removeCollections.js"
+    "flush": "node removeCollections.js"
   },
   "repository": {
     "type": "git",

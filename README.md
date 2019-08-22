@@ -1,8 +1,9 @@
 # payoda
 # initial step up
-1. npm i
-2. npm fetch-users to fetch the user details and their corresponding post and comments
-3. npm start to start the server
+1. "npm i"
+2. "npm fetch-users" to fetch the user details and their corresponding post and comments
+3. "npm start" to start the server
+4. "npm flush" to flush the database
 
 # api list
 1. localhost:3000/users - fetch users
