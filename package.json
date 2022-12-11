@@ -21,7 +21,7 @@
   "homepage": "https://github.com/harsha-93/payoda#readme",
   "dependencies": {
     "body-parser": "1.18.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "lodash": "^4.17.15",
     "mongodb": "^3.3.0"
   }
